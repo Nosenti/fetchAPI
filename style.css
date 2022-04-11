@@ -1,0 +1,98 @@
+:root {
+    --color-primary: #3b2364;
+    --color-blue: #bc69f4;
+    --color-green: #95c123;
+    /* --color-dark-grey: #606661; */
+    --color-dark-grey: #777;
+    --color-light-grey: rgba(236, 232, 232, 0.795);
+    --color-white: #fcfcfc;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--color-dark-grey);
+  }
+
+  header{
+
+  }
+  .users{
+    margin-top: 2rem;
+  }
+  .user-card{
+      min-height: 20rem;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      max-width: 60vw;
+      margin-left: 5rem;
+      margin: 1rem;
+      display: flex;
+      margin-left: 15%;
+  }
+  .left-side{
+      background-color: var(--color-primary);
+      width: 30%;
+      text-align: center;
+      font-size: 1.3rem;
+      color: white;
+  }
+  .username{
+      color: var(--color-green);
+  }
+  .left-side i{
+      margin: 1rem 0;
+      font-size: 5rem;
+      color: white;
+  }
+  .right-side{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      font-size: 1.3rem;
+  }
+  .right-side__company{
+      height: 60%;
+      padding: 2rem;
+  }
+  .right-side__address{
+      background-color: var(--color-green);
+      height: 40%;
+      padding: 1rem 2rem;
+      color: rgba(245, 245, 245, 0.705);
+  }
+  .comp-title{
+      font-weight: bold;
+      color: var(--color-green);
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+  }
+  .comp-name{
+      font-weight: bold;
+      font-size: 1.4rem;
+  }
+  .address-info{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding-bottom: 2rem;
+  }
+  .address-title{
+      font-weight: bold;
+      color: white;
+  }
+  .wrapper{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 4rem;
+  }
